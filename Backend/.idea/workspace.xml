@@ -1,0 +1,1209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87dbc8e5-01d6-4db8-9c48-eab667970bd7" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/kshortestpaths$KshortestpathsTest_AllVocabDepthOne.coverage" NAME="KshortestpathsTest.AllVocabDepthOne Coverage Results" MODIFIED="1553615931199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dfki.LT.OntologyExplorer.kshortestpaths.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/kshortestpaths$KshortestpathsTest.coverage" NAME="KshortestpathsTest Coverage Results" MODIFIED="1521118924360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.dfki.LT.OntologyExplorer.kshortestpaths.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="KshortestpathsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KshortestpathsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/GraphTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2808">
+              <caret line="166" column="54" lean-forward="false" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+              <folding>
+                <marker date="1565259067850" expanded="true" signature="11076:11237" ph="{...}" />
+                <marker date="1565259067850" expanded="true" signature="11296:11529" ph="{...}" />
+                <marker date="1565259067850" expanded="true" signature="11606:11759" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SemanticPathEval.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/SemanticPathEval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyPathEvaluator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/MyPathEvaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Assert.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1692">
+              <caret line="95" column="23" lean-forward="false" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+              <folding>
+                <marker date="1510141160764" expanded="false" signature="3:117" ph="/.../" />
+                <marker date="1510141160764" expanded="true" signature="184:207" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="288:311" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="366:389" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="471:494" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="550:573" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="629:652" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="684:707" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="823:846" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="947:970" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1060:1083" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1173:1196" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1317:1340" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1435:1458" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1546:1569" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1666:1689" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1760:1783" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="1898:1921" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2010:2033" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2119:2142" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2318:2341" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2442:2465" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2623:2646" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2729:2752" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="2904:2927" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3004:3027" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3179:3202" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3279:3302" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3456:3479" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3558:3581" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3731:3754" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="3829:3852" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4004:4027" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4104:4127" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4297:4320" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4415:4438" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4605:4628" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4720:4743" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="4918:4941" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5051:5074" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5181:5204" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5316:5339" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5422:5445" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5524:5547" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5613:5636" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5728:5751" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5757:5787" ph="/**...*/" />
+                <marker date="1510141160764" expanded="true" signature="5882:5905" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="5911:5941" ph="/**...*/" />
+                <marker date="1510141160764" expanded="true" signature="6062:6085" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6169:6192" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6273:6296" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6386:6409" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6473:6496" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6583:6606" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6667:6690" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6779:6802" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="6916:6939" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7027:7050" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7169:7192" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7285:7308" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7369:7392" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7508:7531" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7649:7672" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7787:7810" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7922:7945" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="7951:7981" ph="/**...*/" />
+                <marker date="1510141160764" expanded="true" signature="8128:8151" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="8157:8187" ph="/**...*/" />
+                <marker date="1510141160764" expanded="true" signature="8308:8331" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="8422:8445" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="8561:8584" ph="{}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphTraversalTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/nodeExplorer/GraphTraversalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="87" lean-forward="false" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+              <folding>
+                <marker date="1510141160764" expanded="false" signature="3:117" ph="/.../" />
+                <marker date="1510141160764" expanded="true" signature="237:260" ph="{}" />
+                <marker date="1510141160764" expanded="true" signature="323:346" ph="{}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KShortestPathsAlgo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/CustomPathExpander.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/MyPathList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KShortestPathsAlgo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/MyPathEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/semantic_explorer/Semantic_type_explorer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/SemanticExplorer/SemanticPathEval.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/Kshortestpaths.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/org.neo4j.server.plugins.ServerPlugin" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/SemanticExplorer/SemanticNodeExplorer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KshortestpathsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/SemanticExplorer/SemanticExplorerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/nodeExplorer/GraphTraversalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/GraphTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/SemanticPathEval.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1082" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kshortestpaths" type="b2602c69:ProjectViewProjectNode" />
+              <item name="new-k-shortest" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conway-life-processing/conway-spark" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.dfki.LT.OntologyExplorer.nodeExplorer" />
+      <recent name="com.dfki.LT.OntologyExplorer.kshortestpaths" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/stable_plugin_first_2" />
+      <recent name="$PROJECT_DIR$/DB" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DB" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dfki.LT.OntologyExplorer.nodeExplorer" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dfki.LT.OntologyExplorer.kshortestpaths" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.GraphTraversalTest.test_semantic_type_Depth4">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="GraphTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dfki.LT.OntologyExplorer.nodeExplorer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.dfki.LT.OntologyExplorer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dfki.LT.OntologyExplorer.nodeExplorer" />
+      <option name="MAIN_CLASS_NAME" value="com.dfki.LT.OntologyExplorer.nodeExplorer.GraphTraversalTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GraphTraversalTest.testDepth1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dfki.LT.OntologyExplorer.nodeExplorer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.dfki.LT.OntologyExplorer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dfki.LT.OntologyExplorer.nodeExplorer" />
+      <option name="MAIN_CLASS_NAME" value="com.dfki.LT.OntologyExplorer.nodeExplorer.GraphTraversalTest" />
+      <option name="METHOD_NAME" value="testDepth1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GraphTraversalTest.test_semantic_type_Depth4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dfki.LT.OntologyExplorer.nodeExplorer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.dfki.LT.OntologyExplorer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dfki.LT.OntologyExplorer.nodeExplorer" />
+      <option name="MAIN_CLASS_NAME" value="com.dfki.LT.OntologyExplorer.nodeExplorer.GraphTraversalTest" />
+      <option name="METHOD_NAME" value="test_semantic_type_Depth4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="KshortestpathsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dfki.LT.OntologyExplorer.kshortestpaths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.dfki.LT.OntologyExplorer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dfki.LT.OntologyExplorer.kshortestpaths" />
+      <option name="MAIN_CLASS_NAME" value="com.dfki.LT.OntologyExplorer.kshortestpaths.KshortestpathsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="SemanticExplorerTest.testDepth1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.dfki.LT.OntologyExplorer.SemanticExplorer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="com.dfki.LT.OntologyExplorer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.dfki.LT.OntologyExplorer.SemanticExplorer" />
+      <option name="MAIN_CLASS_NAME" value="com.dfki.LT.OntologyExplorer.SemanticExplorer.SemanticExplorerTest" />
+      <option name="METHOD_NAME" value="testDepth1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="new-k-shortest" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.KshortestpathsTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTraversalTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTraversalTest.testDepth1" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SemanticExplorerTest.testDepth1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTraversalTest.test_semantic_type_Depth4" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTraversalTest.test_semantic_type_Depth4" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTraversalTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTraversalTest.testDepth1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SemanticExplorerTest.testDepth1" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.KshortestpathsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87dbc8e5-01d6-4db8-9c48-eab667970bd7" name="Default" comment="" />
+      <created>1520867453552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520867453552</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GraphTraversalTest_testDepth1 - 2019.03.26 at 18h 02m 00s.xml">
+      <configuration name="GraphTraversalTest.testDepth1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_testDepth1 - 2019.03.26 at 18h 02m 38s.xml">
+      <configuration name="GraphTraversalTest.testDepth1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 11h 59m 37s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 12h 00m 41s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 12h 02m 28s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 12h 03m 32s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 12h 05m 30s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 12h 06m 34s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTraversalTest_test_semantic_type_Depth4 - 2019.04.09 at 12h 08m 34s.xml">
+      <configuration name="GraphTraversalTest.test_semantic_type_Depth4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SemanticExplorerTest_testDepth1 - 2019.03.26 at 17h 43m 32s.xml">
+      <configuration name="SemanticExplorerTest.testDepth1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47729674" sideWeight="0.5040475" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973558" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47729674" sideWeight="0.49595252" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17970859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43519494" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13005936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2495356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49313623" sideWeight="0.7409606" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32973558" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2495356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8029505" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771337" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291959" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.55637515" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43519494" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16351862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34947369" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.3.0/neo4j-kernel-3.3.0-sources.jar!/org/neo4j/graphdb/factory/GraphDatabaseFactory.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>paths.isEmpty()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.endNode().getProperty(&quot;ConceptName&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.endNode().getProperty(&quot;ConceptSymantic&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.endNode().getProperty(&quot;ConceptSymantic&quot;).</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;[{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0031364\&quot;,\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MEDCIN#CHD_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0027396\&quot;,\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2}]&quot;;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;[{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0031364&quot;,&quot;ConceptID&quot;:&quot;C0031364&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MEDCIN#CHD_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0031364&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0031364&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0002771&quot;,&quot;ConceptID&quot;:&quot;C0002771&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;},&quot;type&quot;:&quot;MEDLINEPLUS#RO_related_to&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0002771&quot;,&quot;ConceptID&quot;:&quot;C0002771&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;},&quot;type&quot;:&quot;MEDLINEPLUS#RO_related_to&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0000970&quot;,&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MSH#RN_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0000970&quot;,&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0027396&quot;,&quot;ConceptID&quot;:&quot;C0027396&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0027396&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0027396&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_prevented_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MSH#RN_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MSH#RN_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_prevented_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_prevented_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2}] ==
+&quot;[{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0031364&quot;,&quot;ConceptID&quot;:&quot;C0031364&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MEDCIN#CHD_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0031364&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0031364&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0002771&quot;,&quot;ConceptID&quot;:&quot;C0002771&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;},&quot;type&quot;:&quot;MEDLINEPLUS#RO_related_to&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0002771&quot;,&quot;ConceptID&quot;:&quot;C0002771&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0002771&quot;},&quot;type&quot;:&quot;MEDLINEPLUS#RO_related_to&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0000970&quot;,&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MSH#RN_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0000970&quot;,&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0000970&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0027396&quot;,&quot;ConceptID&quot;:&quot;C0027396&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0027396&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0027396&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_prevented_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MSH#RN_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;MSH#RN_isa&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_prevented_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_treated_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2},{&quot;nodes&quot;:[{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0003419&quot;,&quot;ConceptID&quot;:&quot;C0003419&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0004057&quot;,&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;properties&quot;:{&quot;ConceptName&quot;:&quot;C0030193&quot;,&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;edges&quot;:[{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0003419&quot;},&quot;type&quot;:&quot;CSP#CHD_&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;}},{&quot;WeightPerEdge&quot;:&quot;1&quot;,&quot;sourceNode&quot;:{&quot;ConceptID&quot;:&quot;C0004057&quot;},&quot;type&quot;:&quot;NDFRT#RO_may_be_prevented_by&quot;,&quot;targetNode&quot;:{&quot;ConceptID&quot;:&quot;C0030193&quot;}}],&quot;WeightPerPath&quot;:2}]&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;[{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0031364\&quot;,\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MEDCIN#CHD_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0027396\&quot;,\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2}]&quot; ==  &quot;[{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},&quot; +
+        &quot;{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0031364\&quot;,\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;properties\&quot;:&quot; +
+        &quot;{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:&quot; +
+        &quot;[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MEDCIN#CHD_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0027396\&quot;,\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2}]&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out.equals([{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0031364\&quot;,\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MEDCIN#CHD_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0031364\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0002771\&quot;,\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0002771\&quot;},\&quot;type\&quot;:\&quot;MEDLINEPLUS#RO_related_to\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0000970\&quot;,\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0000970\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0027396\&quot;,\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0027396\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;MSH#RN_isa\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_treated_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2},{\&quot;nodes\&quot;:[{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0003419\&quot;,\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0004057\&quot;,\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;properties\&quot;:{\&quot;ConceptName\&quot;:\&quot;C0030193\&quot;,\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;edges\&quot;:[{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0003419\&quot;},\&quot;type\&quot;:\&quot;CSP#CHD_\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;}},{\&quot;WeightPerEdge\&quot;:\&quot;1\&quot;,\&quot;sourceNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0004057\&quot;},\&quot;type\&quot;:\&quot;NDFRT#RO_may_be_prevented_by\&quot;,\&quot;targetNode\&quot;:{\&quot;ConceptID\&quot;:\&quot;C0030193\&quot;}}],\&quot;WeightPerPath\&quot;:2}])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>path.relationships()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ex</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>out.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KShortestPathsAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graph-algo/3.1.1/neo4j-graph-algo-3.1.1-sources.jar!/org/neo4j/graphalgo/GraphAlgoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="89" column="35" lean-forward="false" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KshortestpathsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/CustomPathExpander.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graph-algo/3.1.1/neo4j-graph-algo-3.1.1-sources.jar!/org/neo4j/graphalgo/GraphAlgoFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="89" column="35" lean-forward="false" selection-start-line="89" selection-start-column="35" selection-end-line="89" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/server-api/3.1.1/server-api-3.1.1-sources.jar!/org/neo4j/server/plugins/Description.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.3.0/neo4j-kernel-3.3.0.jar!/org/neo4j/graphdb/factory/GraphDatabaseBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graphdb-api/3.3.0/neo4j-graphdb-api-3.3.0.jar!/org/neo4j/graphdb/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-collections/3.3.0/neo4j-collections-3.3.0.jar!/org/neo4j/helpers/collection/NestingResourceIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-collections/3.3.0/neo4j-collections-3.3.0.jar!/org/neo4j/helpers/collection/PrefetchingIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graph-algo/3.3.0/neo4j-graph-algo-3.3.0.jar!/org/neo4j/graphalgo/impl/path/ShortestPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="544" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/CustomPathExpander.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graph-algo/3.3.0/neo4j-graph-algo-3.3.0.jar!/org/neo4j/graphalgo/GraphAlgoFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/server-api/3.3.0/server-api-3.3.0.jar!/org/neo4j/server/rest/repr/Representation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/services/org.neo4j.server.plugins.ServerPlugin" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KShortestPathsAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/semantic_explorer/Semantic_type_explorer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graphdb-api/3.3.0/neo4j-graphdb-api-3.3.0.jar!/org/neo4j/graphdb/traversal/TraversalDescription.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/MyPathEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.3.0/neo4j-kernel-3.3.0.jar!/org/neo4j/graphdb/factory/GraphDatabaseFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="17" column="50" lean-forward="false" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/graph.db/bad.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.3.0/neo4j-kernel-3.3.0-sources.jar!/org/neo4j/graphdb/factory/GraphDatabaseSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4079">
+          <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/neostore.counts.db.a" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.3.0/neo4j-kernel-3.3.0-sources.jar!/org/neo4j/graphdb/factory/GraphDatabaseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/conf/neo4j.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="87" lean-forward="false" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+          <folding>
+            <marker date="1510141160764" expanded="false" signature="3:117" ph="/.../" />
+            <marker date="1510141160764" expanded="true" signature="237:260" ph="{}" />
+            <marker date="1510141160764" expanded="true" signature="323:346" ph="{}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="13" column="127" lean-forward="false" selection-start-line="13" selection-start-column="127" selection-end-line="13" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graphdb-api/3.5.0/neo4j-graphdb-api-3.5.0.jar!/org/neo4j/graphdb/traversal/Evaluation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graphdb-api/3.5.0/neo4j-graphdb-api-3.5.0.jar!/org/neo4j/graphdb/traversal/PreorderDepthFirstSelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="116" lean-forward="false" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-collections/3.5.0/neo4j-collections-3.5.0.jar!/org/neo4j/helpers/collection/PrefetchingIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.5.0/neo4j-kernel-3.5.0.jar!/org/neo4j/kernel/impl/traversal/MultiEvaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="147" lean-forward="false" selection-start-line="11" selection-start-column="147" selection-end-line="11" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.5.0/neo4j-kernel-3.5.0.jar!/org/neo4j/kernel/impl/traversal/MonoDirectionalTraverserIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="159" lean-forward="false" selection-start-line="13" selection-start-column="159" selection-end-line="13" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.5.0/neo4j-kernel-3.5.0.jar!/org/neo4j/kernel/impl/traversal/TraversalBranchImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="32" column="156" lean-forward="false" selection-start-line="32" selection-start-column="156" selection-end-line="32" selection-end-column="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-kernel/3.5.0/neo4j-kernel-3.5.0.jar!/org/neo4j/kernel/impl/traversal/StartNodeTraversalBranch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="157" lean-forward="false" selection-start-line="11" selection-start-column="157" selection-end-line="11" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/neo4j/neo4j-graphdb-api/3.5.0/neo4j-graphdb-api-3.5.0.jar!/org/neo4j/graphdb/traversal/Evaluator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="147" lean-forward="false" selection-start-line="14" selection-start-column="147" selection-end-line="14" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/MyPathList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/graph.db/logs/debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/SemanticExplorer/SemanticPathEval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/debug.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262567">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="105" column="48" lean-forward="false" selection-start-line="105" selection-start-column="48" selection-end-line="105" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/org.neo4j.server.plugins.ServerPlugin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/SemanticExplorer/SemanticNodeExplorer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="78" selection-start-column="3" selection-end-line="139" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/SemanticPathEval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/SemanticExplorer/SemanticExplorerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/nodeExplorer/GraphTraversalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/dfki/LT/OntologyExplorer/kshortestpaths/KshortestpathsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/nodeExplorer/GraphTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="166" column="54" lean-forward="false" selection-start-line="166" selection-start-column="54" selection-end-line="166" selection-end-column="54" />
+          <folding>
+            <marker date="1565259067850" expanded="true" signature="11076:11237" ph="{...}" />
+            <marker date="1565259067850" expanded="true" signature="11296:11529" ph="{...}" />
+            <marker date="1565259067850" expanded="true" signature="11606:11759" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dfki/LT/OntologyExplorer/kshortestpaths/Kshortestpaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>new-k-shortest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.ben-manes.caffeine:caffeine:2.3.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

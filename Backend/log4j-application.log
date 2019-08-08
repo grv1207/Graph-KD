@@ -1,0 +1,106 @@
+2019-03-26 16:58:55 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0000039, target:C0043950, vocab:[all], depth:1
+2019-03-26 16:58:58 INFO  Kshortestpaths:78 - Total Paths found: 1
+2019-03-26 16:59:25 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[all], depth:3
+2019-03-26 16:59:27 INFO  Kshortestpaths:78 - Total Paths found: 10
+2019-03-26 16:59:28 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0000039, target:C0043950, vocab:[all], depth:1
+2019-03-26 16:59:29 INFO  Kshortestpaths:78 - Total Paths found: 1
+2019-03-26 16:59:29 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[NDFRT, MSH], depth:2
+2019-03-26 16:59:32 INFO  Kshortestpaths:78 - Total Paths found: 3
+2019-03-26 17:00:56 INFO  KshortestpathsTest:56 - 10 Paths should be there
+2019-03-26 17:00:56 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[all], depth:3
+2019-03-26 17:00:59 INFO  Kshortestpaths:78 - Total Paths found: 10
+2019-03-26 17:00:59 INFO  KshortestpathsTest:43 - 1 Direct Path
+2019-03-26 17:00:59 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0000039, target:C0043950, vocab:[all], depth:1
+2019-03-26 17:01:01 INFO  Kshortestpaths:78 - Total Paths found: 1
+2019-03-26 17:01:01 INFO  KshortestpathsTest:50 - 3 Paths should be there
+2019-03-26 17:01:01 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[NDFRT, MSH], depth:2
+2019-03-26 17:01:03 INFO  Kshortestpaths:78 - Total Paths found: 3
+2019-03-26 17:03:43 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH#RN_mapped_to is :0
+2019-03-26 17:03:46 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:MSH#RO_has_mapping_qualifier is :0
+2019-03-26 17:03:51 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:NDFRT_FMTSME#RO_chemical_structure_of is :0
+2019-03-26 17:03:52 INFO  KshortestpathsTest:56 - 10 Paths should be there
+2019-03-26 17:03:52 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[all], depth:3
+2019-03-26 17:03:56 INFO  Kshortestpaths:78 - Total Paths found: 10
+2019-03-26 17:03:56 INFO  KshortestpathsTest:43 - 1 Direct Path
+2019-03-26 17:03:56 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0000039, target:C0043950, vocab:[all], depth:1
+2019-03-26 17:04:00 INFO  Kshortestpaths:78 - Total Paths found: 1
+2019-03-26 17:04:00 INFO  KshortestpathsTest:50 - 3 Paths should be there
+2019-03-26 17:04:00 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[NDFRT, MSH], depth:2
+2019-03-26 17:04:04 INFO  Kshortestpaths:78 - Total Paths found: 3
+2019-03-26 17:04:06 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Organic Chemical is :11
+2019-03-26 17:04:09 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Amino Acid Peptide or Protein is :1
+2019-03-26 17:04:12 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and SemanticLabel:Chemical Viewed Structurally is :9
+2019-03-26 17:06:45 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:06:48 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH#RN_mapped_to is :0
+2019-03-26 17:06:49 INFO  GraphTraversalTest:65 -  Depth = 2 and total paths = 9
+2019-03-26 17:06:50 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:MSH#RO_has_mapping_qualifier is :0
+2019-03-26 17:06:50 INFO  GraphTraversalTest:59 -  Depth = 3 and total paths = 2583
+2019-03-26 17:06:54 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:3  vocab:[all]  and relLabel:NDFRT_FMTSME#RO_chemical_structure_of is :0
+2019-03-26 17:08:18 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:08:22 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH#RN_mapped_to is :0
+2019-03-26 17:09:19 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:09:20 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN_mapped_to is :0
+2019-03-26 17:11:11 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:11:13 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN;mapped_to is :9
+2019-03-26 17:11:26 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:11:27 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN;mapped_to is :9
+2019-03-26 17:11:28 INFO  GraphTraversalTest:65 -  Depth = 2 and total paths = 9
+2019-03-26 17:11:29 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:MSH;RO;has_mapping_qualifier is :9
+2019-03-26 17:11:29 INFO  GraphTraversalTest:59 -  Depth = 3 and total paths = 2583
+2019-03-26 17:11:31 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:NDFRT_FMTSME;RO;chemical_structure_of is :0
+2019-03-26 17:12:41 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:13:20 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN;mapped_to is :9
+2019-03-26 17:16:57 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 17:16:59 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN;mapped_to is :9
+2019-03-26 17:16:59 INFO  GraphTraversalTest:65 -  Depth = 2 and total paths = 9
+2019-03-26 17:17:01 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:MSH;RO;has_mapping_qualifier is :9
+2019-03-26 17:17:01 INFO  GraphTraversalTest:59 -  Depth = 3 and total paths = 2583
+2019-03-26 17:17:03 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:NDFRT_FMTSME;RO;chemical_structure_of is :0
+2019-03-26 17:17:03 INFO  KshortestpathsTest:56 - 10 Paths should be there
+2019-03-26 17:17:03 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[all], depth:3
+2019-03-26 17:17:07 INFO  Kshortestpaths:78 - Total Paths found: 10
+2019-03-26 17:17:07 INFO  KshortestpathsTest:43 - 1 Direct Path
+2019-03-26 17:17:07 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0000039, target:C0043950, vocab:[all], depth:1
+2019-03-26 17:17:10 INFO  Kshortestpaths:78 - Total Paths found: 1
+2019-03-26 17:17:10 INFO  KshortestpathsTest:50 - 3 Paths should be there
+2019-03-26 17:17:10 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[NDFRT, MSH], depth:2
+2019-03-26 17:17:13 INFO  Kshortestpaths:78 - Total Paths found: 3
+2019-03-26 17:17:16 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Organic Chemical is :11
+2019-03-26 17:17:18 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Amino Acid Peptide or Protein is :1
+2019-03-26 17:17:21 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and SemanticLabel:Chemical Viewed Structurally is :9
+2019-03-26 17:43:32 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Organic Chemical is :11
+2019-03-26 18:01:58 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 18:01:59 INFO  GraphTraversal:67 - Node: C0000039  does not exist!!!
+2019-03-26 18:02:31 INFO  GraphTraversalTest:51 -  Depth = 1 and total paths = 9
+2019-03-26 18:02:37 INFO  GraphTraversal:61 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN;mapped_to is :9
+2019-04-05 11:42:07 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:MSH;RN;mapped_to is :9
+2019-04-05 11:42:18 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:MSH;RO;has_mapping_qualifier is :9
+2019-04-05 11:42:26 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:NDFRT_FMTSME;RO;chemical_structure_of is :0
+2019-04-05 11:42:30 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:Organic Chemical is :11
+2019-04-05 11:42:37 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and relLabel:Chemical Viewed Structurally is :9
+2019-04-05 11:42:42 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and relLabel:Amino Acid Peptide or Protein is :1
+2019-04-05 11:45:53 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and Label:Organic Chemical is :11
+2019-04-05 11:45:55 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and Label:Chemical Viewed Structurally is :9
+2019-04-05 11:45:57 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and Label:Amino Acid Peptide or Protein is :1
+2019-04-05 11:45:59 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and Label:MSH;RN;mapped_to is :9
+2019-04-05 11:46:00 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and Label:MSH;RO;has_mapping_qualifier is :9
+2019-04-05 11:46:06 INFO  GraphTraversal:81 - Total graphs for src:C0000039 traversal_Depth:3  vocab:[all]  and Label:NDFRT_FMTSME;RO;chemical_structure_of is :0
+2019-04-05 11:46:06 INFO  KshortestpathsTest:56 - 10 Paths should be there
+2019-04-05 11:46:06 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[all], depth:3
+2019-04-05 11:46:09 INFO  Kshortestpaths:78 - Total Paths found: 10
+2019-04-05 11:46:09 INFO  KshortestpathsTest:43 - 1 Direct Path
+2019-04-05 11:46:09 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0000039, target:C0043950, vocab:[all], depth:1
+2019-04-05 11:46:11 INFO  Kshortestpaths:78 - Total Paths found: 1
+2019-04-05 11:46:11 INFO  KshortestpathsTest:50 - 3 Paths should be there
+2019-04-05 11:46:11 INFO  Kshortestpaths:42 - Received Request for k-shortest src: :C0003419, target:C0030193, vocab:[NDFRT, MSH], depth:2
+2019-04-05 11:46:14 INFO  Kshortestpaths:78 - Total Paths found: 3
+2019-04-05 11:46:15 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Organic Chemical is :11
+2019-04-05 11:46:17 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:1  vocab:[all]  and SemanticLabel:Amino Acid Peptide or Protein is :1
+2019-04-05 11:46:18 INFO  SemanticNodeExplorer:60 - Total graphs for src:C0000039 traversal_Depth:2  vocab:[all]  and SemanticLabel:Chemical Viewed Structurally is :9
+2019-04-09 11:59:36 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:1  vocab:[all]  and Label:Sign or Symptom is :0
+2019-04-09 12:00:39 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:1  vocab:[all]  and Label:Sign or Symptom is :0
+2019-04-09 12:02:27 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:2  vocab:[all]  and Label:Sign or Symptom is :18
+2019-04-09 12:03:31 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:3  vocab:[all]  and Label:Sign or Symptom is :0
+2019-04-09 12:05:30 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:2  vocab:[all]  and Label:Sign or Symptom is :18
+2019-04-09 12:06:33 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:2  vocab:[all]  and Label:Sign or Symptom is :18
+2019-04-09 12:08:33 INFO  GraphTraversal:81 - Total graphs for src:C0003419 traversal_Depth:2  vocab:[all]  and Label:Sign or Symptom is :18
