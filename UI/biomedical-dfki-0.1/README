@@ -1,0 +1,11 @@
+This is the README file for the various demos included in this web app.
+=================================
+
+Development:
+There are two config files used in the web app: application.conf and dev.conf. dev.conf is used for development, and in order to
+ load it, you need to run: `sbt "run -Dconfig.resource=dev.conf"` in windows, and `activator.bat run -Dconfig.resource=dev.conf`
+in Linux/Unix
+
+
+
+In order to add a new tutorial video, rename it to tutorial.mp4 and place it under /bin/videos from the root folder of the application.

@@ -1,0 +1,300 @@
+<div class="container">
+
+    <style>
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+        a:active {
+            color: black;
+        }
+
+
+        div.container {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 14px;
+            width: 900px;
+            border: 0px solid gray;
+            position: relative;
+            left: 250px;
+        }
+
+        header {
+            padding: 1em;
+            color: white;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+
+        footer {
+            padding: 1em;
+            color: white;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+
+
+        nav {
+            position: fixed;
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul a {
+            text-decoration: none;
+        }
+
+        .flagge {
+            padding: 2px;
+            padding-top: 4px;
+        }
+
+
+        article {
+            margin-left: 180px;
+            border-left: 2px solid #979797;
+            padding: 1em;
+            overflow: hidden;
+            text-align: justify;
+            min-height: 80vh;
+        }
+
+
+        /* char_translator.html */
+        .boxed {
+            background-color: #CCCCCC;
+            padding: 0.5em;
+        }
+    </style>
+
+    <header>
+        <!--<h1>MACSS</h1>-->
+        <table width="880" border=0>
+            <tr>
+                <!--<td align="right"><img src="/assets/MACSS_R_long.png" height="100"></td>-->
+                <td align="right"><img src="/assets/images/dfki.png" height="45"></td>
+            </tr>
+        </table>
+    </header>
+
+    <nav id='side-bar'>
+        <ul>
+            <li class='menu-item'><a href="#" data-target='about'>&Uuml;bersicht</a></li>
+            <li class='menu-item'><a href="#" data-target='projects'>Projekte</a></li>
+            <li class='menu-item'><a href="#" data-target='mex'>mEx</a></li>
+            <li class='menu-item'>&nbsp;<a href="#" data-target='mex-demo'>&nbsp;- Demo</a></li>
+            <li class='menu-item'>&nbsp;<a href="#" data-target='mex-rest'>&nbsp;- REST-API</a></li>
+	    <li class='menu-item'><a href="#" data-target='resources'>Resources</a></li>
+            <li class='menu-item'><a href="#" data-target='legal'>Impressum</a></li>
+            <li class='menu-item'><a href="https://www.dfki.de/web/data-protection-de">Datenschutz</a></li>
+            <li>
+                <a href="/de" title="zu Deutsch wechseln"><img src="/assets/images/flagge.png" class=flagge></a>
+                <a href="/en" title="switch to English"><img src="/assets/images/flag.png" class=flagge></a>
+            </li>
+        </ul>
+    </nav>
+    <hr color=#00A69C>
+
+    <div id='article-container'>
+        <article id='about'>
+            <h1>&Uuml;bersicht</h1>
+		<p>Diese Seite präsentiert die neuesten Entwicklungen der DFKI Sprachtechnologie-Gruppe im Bereich biomedizinischer Textanalyse, Informationsextraktion und maschinellem Lernen. Wir präsentieren unsere aktuelle Forschung sowie Demo-Systeme, Datensätze und veröffentlichten Modelle.</p><p>
+	    <h1>Aktivitäten</h1>
+		<p>4.-5. Dezember 2018 - Präsentation unserer mEx-Demo bei Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS'2018) in Antwerpen</p>
+		<p>12. November 2018 - Vortrag zusammen mit Wiebke Düttmann-Rehnolt beim <a href="https://www.european-big-data-value-forum.eu/program/healthcare/">European Big Data Value Forum</a> (EBDVF) 2018 in Wien: <i>"Optimizing the care of kidney transplant patients using Big Data"</i>. Weitere Infos: <a href="https://www.bigmedilytics.eu/bigmedilytics-project-presented-in-the-european-big-data-value-forum-in-vienna/">[1]</a></p>
+		<p>7. November 2018 - Vortrag bei <a href="https://science-match.tagesspiegel.de/future-medicine-2018/program">Future Medicine</a> 2018 in Berlin: <i>"Early detection of complications in patients after kidney transplant"</i></p>
+		<p>16. Oktober 2018 - Vortrag beim Smart Data Forum in Berlin: "<i>Medical Data Analytics for Chronic Kidney Disease</i>"</p>
+		<p>15. Oktober 2018 - Unsere Demo <i>mEx - eine Informations-Extraktions Plattform für deutsche medizinische Texte</i> geht online: <i><a href="http://biomedical.dfki.de/mEx">http://biomedical.dfki.de/mEx</a></i></p>
+		<p>8. Oktober 2018 - Vortrag an der Berlin-Brandenburgischen Akademie der Wissenschaften im Rahmen von Medizindiagnostik und KI: "<i>Informationszugriff und Medizindiagnostik in der Nephrologie</i>"</p>
+		<p>25.-26. September 2018 - BigMedilytics Meilenstein-Treffen in Rotterdam</p>
+		<p>20. September 2018 - Präsentation unserer Publikation "<i>A Domain-adapted Dependency Parser for German Clinical Text</i>" auf der KONVENS 2018 in Wien</p>
+		<p>8. Mai 2018 - Vortrag beim MutlilingualBIO in Miyazaki: <i>"Cross-lingual Candidate Search for Biomedical Concept Normalization"</i></p>
+		<p>23. März 2018 - XPOMET-Podiumsdiskussion in Leipzig</p>
+		<p>6.-7. März 2018 - BigMedilytics-Auftakt in Eindhoven</p>
+		<!--<p>29 January 2018 - MACSS Milestone Meeting in Berlin</p>-->
+
+
+
+            <!--<p>Diese Seite pr&auml;sentiert die Entwicklungen der DFKI-Sprachtechnologie Gruppe im Bereich
+                biomedizinischer Textanalyse, Informationsextraktion und maschinelles Lernen. Wir pr&auml;sentieren unsere
+                aktuelle Forschung, sowie Demo-Systeme, Datens&auml;tze und ver&ouml;ffentlichte Modelle.</p>-->
+
+        </article>
+
+        <article id='projects' hidden>
+            <h1>Projekte</h1>
+            <b>BigMedilytics - Big Data for Medical Analytics</b>
+          <p>Das EU-Projekt BigMedilytics zielt darauf ab, die Produktivit&auml;t im Gesundheitswesen durch die Anwendung von Big-Data-Technologien signifikant zu steigern und gleichzeitig die Kosten zu senken, die Heilungschancen von Patienten zu verbessern und den Zugang zu Gesundheitseinrichtungen zu erleichtern. Das Projekt ist aufgeteilt in 12 Pilotstudien.</p>
+
+          <p>Das DFKI arbeitet im Teilprojekt Nierenerkrankungen unter Leitung der Charité Universitätsmedizin Berlin zusammen mit dem Hasso-Plattner-Institut, der AOK Nordost und dem Universitätsklinikum Essen an maschinellen Lernverfahren zum Management sowie zur Früherkennung und Prävention von Komplikation bei Nierentransplantationen. Das DFKI wird hierzu u.a. auf den Vorarbeiten aus dem Projekt MACSS aufbauen.
+</p>
+
+          <br>
+
+          <b>MACSS</b>
+          <p>Das Projekt MACSS (Medical Allround-Care Service Solutions) strebt die Entwicklung einer neuartigen, patientenzentrierten E-Health-Plattform an, mit Partnern aus Wissenschaft, Wirtschaft, Krankenkassen und Patientenverbänden. Das Ziel des Projektes besteht darin, die Sicherheit der Patienten nach Nierentransplantationen zu erhöhen. Ebenso wird eine nachhaltige Verbesserung der Arzneimittelsicherheit und der Kommunikation zwischen Patienten und ihren behandelnden Ärzten, sowie den Ärzten untereinander, angestrebt.</p>
+
+          <p>Mit Hilfe einer mobilen, bidirektionalen Applikation (App) soll es möglich sein, Patientendaten über das Smartphone in die Routinebehandlung einzubinden. Dank eines bereits genehmigten Sicherheits- und Autorisierungskonzeptes wird der Schutz dieser sensiblen Daten gewährleistet. Mittels Hauptspeicherdatenbanken werden die Patientendaten aus Praxis- und Kliniksystemen in die MACSS-Plattform integriert und können so für verschiedene Informationsdienste genutzt werden. Innovative Technologien werden die Daten für eine personalisierte Echtzeit-Therapieplanung aggregieren, analysieren und rekombinieren. Neben der verbesserten Pateientenversorgung werden so auch langfristig Kosten im deutschen Gesundheitssystem reduziert werden können.</p>
+
+          <p>Das DFKI unterstützt das MACSS-Projekt im Bereich natürliche Sprachverarbeitung, Text Analyse und Informationsextraktion. Hierbei geht es darum, textuelle Daten zu verarbeiten, medizinische Konzepte und deren Relationen automatisch zu erkennen und diese mit einer erweiterten Wissensdatenbank (z.B. UMLS) zu verknüpfen, um Patienten und Ärzte in ihrer Kommunikation zu unterstützen.</p>
+
+          <p>MACSS wird durch das Bundesministerium für Wirtschaft und Energie (BMWi) über das MACSS-Projekt (01MD16011F) gefördert. Mehr Informationen können unter <a href="http://macss.dfki.de/">macss.dfki.de</a>,
+            sowie der offiziellen <a href="http://www.macss-projekt.de/">MACSS Webseite</a> gefunden werden.</p><br>
+
+        </article>
+        <article id='mex' hidden>
+            <h1>mEx - medizinische Informationsextraktion</h1>
+		mEx ist ein Online-Tool zur Bearbeitung von deutschen medizinischen Texten und kann über ein Web-Frontend oder eine REST-API aufgerufen werden. Das Tool umfasst eine Reihe verschiedener Komponenten der natürlichen Sprachverarbeitung (NLP), um medizinischen Text zu verarbeiten und wichtige Informationen daraus zu extrahieren. Alle Komponenten wurden im Rahmen des vom Bundesministerium für Wirtschaft unterstützten MACSS-Projektes entwickelt und sind nun zu einem einheitlichen System zusammengefasst. Die Modelle wurden auf deutschen medizinischen Texten aus der Nephrologie (Nierenheilkunde) trainiert. Weiterführend wurde die Effizienz der Modelle in zusätzlichen Experimenten anhand klinischer Texte aus anderen Teilgebieten der Medizin untersucht.<p>
+
+Es existieren verschiedene Tools für die Verarbeitung biomedizinischer Texte im Englischen, allerdings keins, welches ohne Anpassung auf andere Sprachen anwendbar ist. Dies hat verschiedene Gründe, die die Forschung und die Entwicklung von NLP-Komponenten zur Unterstützung von Ärzten im täglichen Leben leider verlangsamen.<p>
+
+Unsere Demo enthält Komponenten für die folgenden Aufgaben: Satzsegmentierung, Tokenisierung, Part-of-Speech-Tagging, Dependenzparsen, Named Entity Recognition (NER), Negations- und Faktizitätserkennung sowie Relationsextraktion (RE). Eine kurze Übersicht sowie laufende Änderungen sind unten aufgeführt.<p>
+
+	<h2>mEx-Komponenten</h2>
+		<b>Satz- und Token-Segmentierer</b><br>
+		Momentan verwenden wir spaCy für die Satzsegmentierung und Tokenisierung.<p>
+		<b>Part-of-Speech-Tagging</b><br>
+		Unser POS-Tagger basiert auf einem Bi-LSTM+CRF und ist auf einer Mischung aus allgemeinensprachlichen [2] und klinischen deutschen Textdaten trainiert.<p>
+		<b>Dependenzparsen</b><br>
+		Für die syntaktische Verarbeitung verwenden wir den Dependenzparser von Stanford [1]. Das deutsche Stanford-Modell wurde wurde zur ieser wurde Domänenanpassung auf unseren nephrologischen Texten weitertrainiert. Das Trainingsverfahren und das Modell selbst sind in [3] beschrieben.<p>
+		<b>Eigennamenerkennung</b><br>
+		Unsere NER-Komponente erkennt vordefinierte Entitäten (Medikamentenanmerkungen, Körperteile oder Erkrankungen usw.) sowie abstraktere Entitäten (medizinische Spezifikationen, Diagnose- bzw. Laborverfahren, Behandlungen usw.). Es verwendet ein Bi-LSTM mit CRF [5].<p>
+		<b>Negations- und Spekulationserkennung</b><br>
+		Die Negationserkennungsfunktion basiert auf einer leicht modifizierten Version von NegEx mit einem erweiterten Set von Negationstriggerwörtern. Die aktuelle Version erkennt negierte und "spekulierte" Erkankungen in Textdokumenten. Weiterführende Informationen finden Sie <a href="http://macss.dfki.de/german_trigger_set.html">hier</a> und in [4].<p>
+		<b>Relationsextraktion</b><br>
+		Die mEx RE-Komponente basiert auf einem Convolutional Neural Network (CNN), wie in [5] beschrieben. Sowohl die NER- als auch die RE-Komponente wurden auf einem großen Datensatz bestehend aus klinischen Verlaufsnotizen und Entlassungsbriefen aus dem Gebiet der Nephrologie trainiert.<p>
+
+	<h2>References</h2>
+		<!--[1] Roland Roller, Christoph Alt, Laura Seiffe and He Wang. 2018. <b>mEx - An Information Extraction Platform for German Medical Text</b>. In Proceedings of the 11th International Conference on Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS'2018). Antwerp, Belgium<br><br>
+		[2] Johannes Hellrich, Franz Matthies, Erik Faessler and Udo Hahn. 2015. <b>Sharing models and tools for processing German clinical texts</b>. Studies in Health Technology and Informatics, 210:734-738.<br><br>-->
+		[1] Danqi Chen and Christopher Manning. 2014. <b>A Fast and Accurate Dependency Parser using Neural Networks</b>. In Proceedings of EMNLP 2014, Association for Computational Linguistics, 740-750.<br><br>		
+		[2] Kilian Foth, Arne Köhn, Niels Beuck and Wolfgang Menzel. 2014. <b>Because Size Does Matter: The Hamburg Dependency Treebank</b>. Proceedings of the Language Resources and Evaluation Conference 2014 / European Language Resources Association (ELRA). Reykjavik, Iceland.<br><br>
+
+		[3] Elif Kara, Tatjana Zeen, Aleksandra Gabryszak, Klemens Budde, Danilo Schmidt and Roland Roller. 2018. <b>A Domain-adapted Dependency Parser for German Clinical Text</b>. In Proceedings of KONVENS 2018, "The Conference on Natural Language Processing". Vienna, Austria.<br><br>
+		[4] Viviana Cotik, Roland Roller, Feiyu Xu, Hans Uszkoreit, Klemens Budde and Danilo Schmidt. 2016. <b>Negation Detection in Clinical Reports Written in German</b>. In Proceedings of the 5th Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM). Osaka, Japan<br><br>
+		[5] Roller, Roland, Nils Rethmeier, Philippe Thomas, Marc Hübner, Hans Uszkoreit, Oliver Staeck, Klemens Budde, Fabian Halleck, and Danilo Schmidt. 2017. <b>Detecting Named Entities and Relations in German Clinical Reports</b>. Proceedings of the International Conference of the
+German Society for Computational Linguistics and Language Technology. Berlin, Germany<br><br>
+        </article>
+        <article id='mex-demo' hidden>
+            <h1>Demo page</h1>
+
+Auf unser mEx Demosystem kann <a href="http://biomedical.dfki.de/mEx">hier</a> zugegriffen werden.
+            <h1>Beschreibung der Demo</h1>
+mEx fasst mehrere NLP-Komponenten zu einer Pipeline zusammen, um Informationen aus deutschen medizinischen Texten zu extrahieren.<p>
+Das System funktioniert ausschließlich mit deutschen Texten, jedoch können das Menü und die Beschreibungen bei Bedarf oben links auf Englisch umgestellt werden.<p>
+<img src="/static/images/T1.png" width="100%"><p>
+Der Button oben rechts startet ein Tutorial. Ein Klick auf das Haussymbol führt zurück auf die  Hauptseite.<p>
+<img src="/static/images/T2.png" width="100%"><p>
+Der Eingabetext kann aus den existierenden Verlaufsnotizen links vom Toolfenster ausgewählt werden.<p>
+<img src="/static/images/T3.png" width="100%"><p>
+Wenn auf eine der 12 Textdateien geklickt wird, wird der verarbeitete Text im Eingabefeld angezeigt. Bei Bedarf kann man den Text auch direkt im Eingabefeld ändern.<p>
+<img src="/static/images/T4.png" width="100%"><p>
+Alternativ kann ein freier Text im Eingabefeld verfasst werden. Die Fenstergröße kann durch Ziehen an der rechten unteren Ecke angepasst werden.<p>
+Das Bedienfeld auf der rechten Seite des Toolfensters enthält Funktionen zur Named Entity Recognition (NER), Negationserkennung, Normalisierung und Relationsextraktion (RE). Alle Funktionen können durch Klicken auf die Pfeile oben rechts minimiert und erweitert werden.<p>
+
+<img src="/static/images/T5.png" width="100%"><p>
+Die NER-Komponente erkennt verschiedene Arten medizinischer Informationen. Standardmäßig sind alle Kategorien vorausgewählt. Gegenwärtig kann nur das LSTM verwendet werden. Die Negationserkennungs kann wahlweise ein- oder ausgeschaltet werden. Die Funktion der Konzeptnormalisierung gleicht die erkannten Entitäten an korrespondierende Konzepte aus dem Unified Medical Language System (UMLS) ab.<p>
+
+Sprachlich mehrdeutige Entitäten werden per Disambiguierung der Wortbedeutung (engl. Word Sense Disambiguation (WSD)) aufgelöst. Die RE-Funktion erkennt bestimmte Beziehungen zwischen zuvor erkannten Entitäten unter Verwendung eines CNNs.<p>
+
+Die blaue Schaltfläche "Semantics" unterhalb des Textfensters löst die Informationsextraktionspipeline aus. Wenn die Daten erfolgreich abgerufen wurden, werden sie im Fenster “processed text” angezeigt. Erkannte Entitäten und Beziehungen werden hervorgehoben und Negationen rot umrahmt. Die Demo visualisiert zusätzliche Informationen zu einem jeweiligen laben in einem Popup.<p>
+
+<img src="/static/images/T6.png" width="100%"><p>
+Die grüne Schaltfläche "Syntax" löst eine syntaktische Analyse des Eingabetextes aus. Der Text wird mit seinen Wortbestandteilen (POS) und ihren syntaktischen Beziehungen visualisiert.<br>
+<img src="/static/images/T7.png" width="100%"><br>
+
+
+        </article>
+        <article id='mex-rest' hidden>
+            <h1>Anleitung REST-API</h1>
+        </article>
+	<article id='resources' hidden>
+            <h1>Daten</h1>
+
+		<p><b>Fiktive Verlaufsnotizen</b><br>
+		Dieser kleine Datensatz ist eine Sammlung von fiktiven Verlaufsnotizen aus dem Bereich der Nephrologie, die von Studenten der Medizin bzw. der Linguistik verfasst wurden. Die Dokumente imitieren den Stil und den Inhalt echter klinischer Notizen aus dem Gebiet der Nephrologie und eignen sich daher zum Testen von NLP-Anwendungen, da echte Patientendaten nur bedingt für solche Zwecke genutzt werden können. Es sei angemerkt, dass unsere fiktiven Verlaufsnotizen aus medizinischer Sicht nicht unbedingt korrekt sind. <a href="http://macss.dfki.de/data/fiktive_Verlaufsnotizen.tar.gz">Download</a></p>
+		<p><b>Deutsches NegEx Trigger-Set</b><br>
+		Dieses Set von Triggerwörtern wurde für die Negationserkennung in deutschen klinischen Notizen sowie Arztbriefen erstellt. Weitere Informationen finden Sie <a href="http://macss.dfki.de/german_trigger_set.html">hier</a>. <a href="http://macss.dfki.de/negex/negex_trigger_german_biotxtm_2016.txt">Download</a></p>
+
+	    <h1>Tools & Models</h1>
+		<p><b>SIA: Ein skalierbarer interoperabler Annotationsserver für biomedizinische Eigennamen</b><br>
+		Die letzten Jahre verzeichneten einen starken Anstieg in den biomedizinischen Wissenschaften einschließlich eines Anstiegs im Publikationsvolumen. Die Extraktion spezifischer Informationen aus diesen Quellen erfordert hoch entwickelte Text-Mining- und Informationsextraktions-Tools. Die Integration frei verfügbarer Tools in angepasste Workflows ist jedoch oft umständlich und schwierig. SIA ist ein skalierbarer, erweiterbarer und robuster Annotationssdienst, der die Integration verschiedener Text-Mining-Tools ermöglicht. Das System umfasst derzeit sechs benannte Entitätstypen (Chemikalien, Krankheiten, Gene, miRNA, Mutationen und Organismen) und ist <a href="https://github.com/Erechtheus/sia">hier</a>, unter Apache 2.0 Lizenz frei verfügbar.
+		<p><b>Dependenzparser für medizinische deutsche Texte</b><br>
+		Mit dem Stanford Parser haben wir einen domänenangepassten Dependenzparser erstellt, der auf deutschen medizinischen Text spezialisiert ist. Das Modell ist vortrainiert auf einem großen allgemeinsprachlichen Datensatz in deutscher Sprache und wurde anschließend mit einem kleinen Datensatz bestehend aus nephrologischen Texten neu trainiert. Das Modell und eine detailliertere Beschreibung finden Sie <a href="http://macss.dfki.de/dependency_parser.html">hier</a>.</p>
+		<p><b>Biomedical-CharTranslator</b><br>
+		Konzeptnormalisierung ist Teil vieler NLP-Aufgaben, wobei eine bestimmte Erwähnung mit einem entsprechenden Konzept aus einer Ontologie verknüpft wird. Dies auf eine andere Sprache als Englisch anzuwenden, kann eine Herausforderung darstellen, da nicht-englische Daten häufig unterrepräsentiert sind.<p>
+		Darüber hinaus beinhalten biomedizinische Texte reichlich Fachbegriffe griechischen und lateinischen Ursprungs. Diese Tatsache sowie die grammatikalischen Merkmale einer bestimmten Sprache berücksichtigend, kann eine große Anzahl biomedizinischer Begriffe problemlos von einer Sprache in eine andere übersetzt werden. Unser biomedizinischer CharTranslator basiert auf dieser Idee und verwendet einen einfachen neuronalen Übersetzer auf Charakterebene. Auf diese Weise kann die Konzeptnormalisierung verbessert werden, indem "unbekannte" Wörter übersetzt werden und die Suche durch Einbeziehung englischer Daten erweitert wird. Das Tool und die Modelle finden Sie <a href="http://macss.dfki.de/char_translator.html">hier</a>.</p>
+        </article>
+        <article id='legal' hidden>
+            <h1>Legal Information</h1>
+		Deutsches Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz GmbH, DFKI<p>
+
+		Postal Address<br>
+		Postfach 20 80<br>
+		D-67608 Kaiserslautern<p>
+
+		Email: info@dfki.de<p>
+
+		Direct contact: Roland Roller (roland.roller@dfki.de)<p>
+
+		<b>Kaiserslautern Site</b><br>
+		Trippstadter Strasse 122<br>
+		D-67663 Kaiserslautern<br>
+		Phone: +49 (0)631 / 205 75-0<br>
+		Telefax: +49 (0)631 / 205 75-5030<p>
+
+		<b>Saarbruecken Site</b><br>
+		Stuhlsatzenhausweg 3 (Building D3 2)<br>
+		D-66123 Saarbruecken<br>
+		Phone: +49 (0)681 / 857 75-0<br>
+		Telefax: +49 (0)681 / 857 75-5341<p>
+
+		<b>Bremen Site</b><br>
+		Robert-Hooke-Strasse 1<br>
+		D-28359 Bremen<br>
+		Phone: +49 (0)421 / 178 45-0<br>
+		Telefax: +49 (0)421 / 178 45-4150<p>
+
+		<b>DFKI Project Office Berlin </b><br>
+		Alt-Moabit 91c<br>
+		D-10559 Berlin<br>
+		Phone: +49 (0)30 / 238 95-0<p>
+		 
+
+		Management Board<br>
+		Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (CEO)<br>
+		Dr. Walter Olthoff (CFO)<p>
+
+		Head of Supervisory Board<br>
+		Prof. Dr. h.c. Hans A. Aukes<p>
+
+		Register Court: Amtsgericht Kaiserslautern<br>
+		Register Number: HRB 2313<p>
+
+		ID-Number: DE 148 646 973<br>
+        </article>
+        <article id='data-protection' hidden>
+            <h1>Data Protection</h1>
+        </article>
+
+    </div>
+     <footer></footer>
+
+</div>

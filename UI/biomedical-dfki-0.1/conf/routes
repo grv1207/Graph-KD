@@ -1,0 +1,57 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page (Change back to .SAP later)
+GET     /                                                           @controllers.TextAnalytics.introPage(language:String?="en")
+GET     /de                                                         @controllers.TextAnalytics.introPage(language:String?="de")
+GET     /en                                                         @controllers.TextAnalytics.introPage(language:String?="en")
+GET     /medical-text-analytics                                     @controllers.TextAnalytics.SAP
+GET     /longitudinal-patient-records-analysis                      @controllers.TextAnalytics.patientAnaylisis
+GET     /similar-patients                                           @controllers.TextAnalytics.similarPatients
+GET     /state-function                                             @controllers.TextAnalytics.stateFunction
+GET     /cohort-group                                               @controllers.TextAnalytics.cohortGroup
+GET     /graph-kd                                                   @controllers.TextAnalytics.shortestPath
+GET     /mEx/:language                                              @controllers.TextAnalytics.clinicalNlp(language)
+GET     /mEx                                                        @controllers.TextAnalytics.clinicalNlp(language:String?="en")
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                                               @controllers.Assets.versioned(path="/public", file: Asset)
+GET     /static/*file                                               @controllers.Service.getStaticFile(file)
+
+# Generic functional links
+
+POST    /textToAnnotate                                             @controllers.Service.getAnnotation
+POST    /textToAnnotateSyntax                                       @controllers.Service.getSyntaxAnnotation
+GET     /getArticleList/:mode                                       @controllers.Service.getArticleList(mode)
+POST    /getShortestPath                                            @controllers.Service.getShortestPath
+POST    /nodeExploration                                            @controllers.Service.nodeExploration
+POST    /getInferredEdges                                           @controllers.Service.getInferredEdges
+GET     /getCUI/:input                                              @controllers.Service.getCUI(input)
+GET     /getConceptName/:input                                      @controllers.Service.getConceptName(input)
+GET     /getConceptDef/:input                                       @controllers.Service.getConceptDefinition(input)
+GET     /getConceptType/:input                                      @controllers.Service.getConceptType(input)
+GET     /getRelationType/:input                                     @controllers.Service.getRelationType(input)
+POST    /similarPatients                                            @controllers.Service.getSimilarPatients
+POST    /authenticate                                               @controllers.Authentication.authenticate
+GET     /getVideoTutorial                                              @controllers.Service.getVideoTutorial
+
+
+# API's for the Patient Record Analysis page
+GET     /getPatientList/:mode                                       @controllers.Service.getPatientList(mode)
+GET     /getPatientDocuments/:mode/:id                              @controllers.Service.getPatientDocuments(mode,id)
+POST    /getDocumentAnalysis/:mode/:pid/:did                        @controllers.Service.getDocumentAnalysis(mode,pid,did)
+POST    /getSummarization/:mode/:pid/:period                        @controllers.Service.getSummarization(mode,pid,period:Int)
+
+
+
+# Mockup Service
+POST     /mockupShortestPath                                        @controllers.Service.mockupShortestPath
+POST     /mockupAnnotation                                          @controllers.Service.mockupAnnotation
+GET      /mockupCUI/:input                                          @controllers.Service.mockupCUI(input)
+GET      /mockupConceptDef/:input                                   @controllers.Service.mockupConceptDefinition(input)
+GET      /mockupConceptType/:input                                  @controllers.Service.mockupConceptType(input)
+POST     /mockupPatientAnalysis                                     @controllers.Service.mockupPatientAnalysis
+POST     /mockupSimilarPatients                                     @controllers.Service.mockupSimilarPatients
+GET      /mockupRelationTypes/:input                                @controllers.Service.mockupRelationTypes(input)
+POST     /mockupNodeExploration                                     @controllers.Service.mockupNodeExploration

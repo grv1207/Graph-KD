@@ -1,0 +1,395 @@
+<div class="container">
+
+    <style>
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+        a:active {
+            color: black;
+        }
+
+
+        div.container {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 14px;
+            width: 900px;
+            border: 0px solid gray;
+            position: relative;
+            left: 250px;
+        }
+
+        header {
+            padding: 1em;
+            color: white;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+
+        footer {
+            padding: 1em;
+            color: white;
+            background-color: white;
+            clear: left;
+            text-align: center;
+        }
+
+
+        nav {
+            position: fixed;
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul a {
+            text-decoration: none;
+        }
+
+        .flagge {
+            padding: 2px;
+            padding-top: 4px;
+        }
+
+
+        article {
+            margin-left: 180px;
+            border-left: 2px solid #979797;
+            padding: 1em;
+            overflow: hidden;
+            text-align: justify;
+            min-height: 80vh;
+        }
+
+
+        /* char_translator.html */
+        .boxed {
+            background-color: #CCCCCC;
+            padding: 0.5em;
+        }
+    </style>
+
+    <header>
+        <!--<h1>MACSS</h1>-->
+        <table width="880" border=0>
+            <tr>
+                <!--<td align="right"><img src="/assets/MACSS_R_long.png" height="100"></td>-->
+                <td align="right"><img src="/assets/images/dfki.png" height="45"></td>
+            </tr>
+        </table>
+    </header>
+
+    <nav id='side-bar'>
+        <ul>
+            <li class='menu-item'><a href="#" data-target='about'>About</a></li>
+            <li class='menu-item'><a href="#" data-target='projects'>Projects</a></li>
+            <li class='menu-item'><a href="#" data-target='mex'>mEx</a></li>
+            <li class='menu-item'>&nbsp;<a href="#" data-target='mex-demo'>&nbsp;- Demo</a></li>
+            <li class='menu-item'>&nbsp;<a href="#" data-target='mex-rest'>&nbsp;- REST-API</a></li>
+            <li class='menu-item'><a href="#" data-target='graphkd'>Graph-KD</a></li>
+            <li class='menu-item'><a href="#" data-target='resources'>Resources</a></li>
+	    <li class='menu-item'><a href="#" data-target='legal'>Legal Information</a></li>
+            <li class='menu-item'><a href="https://www.dfki.de/web/data-protection-en">Data Protection Notice</a></li>
+            <li>
+                <a href="/de" title="zu Deutsch wechseln"><img src="/assets/images/flagge.png" class=flagge></a>
+                <a href="/en" title="switch to English"><img src="/assets/images/flag.png" class=flagge></a>
+            </li>
+<!--            <li class='menu-item'><a href="#" data-target='about'>About</a></li>
+            <li class='menu-item'><a href="#" data-target='projects'>Projects</a></li>
+            <li class='menu-item'><a href="#" data-target='mex'>mEx</a></li>
+            <li class='menu-item'>&nbsp;<a href="#" data-target='mex-demo'>&nbsp;- Demo</a></li>
+            <li class='menu-item'>&nbsp;<a href="#" data-target='mex-rest'>&nbsp;- REST-API</a></li>
+	    <li class='menu-item'><a href="#" data-target='resources'>Resources</a></li>
+            <li class='menu-item'><a href="#" data-target='legal'>Legal Information</a></li>
+            <li class='menu-item'><a href="https://www.dfki.de/web/data-protection-en">Data Protection Notice</a></li>
+            <li>
+                <a href="/de" title="zu Deutsch wechseln"><img src="/assets/images/flagge.png" class=flagge></a>
+                <a href="/en" title="switch to English"><img src="/assets/images/flag.png" class=flagge></a>
+            </li>-->
+        </ul>
+    </nav>
+    <hr color=#00A69C>
+
+    <div id='article-container'>
+        <article id='about'>
+            <h1>About</h1>
+            <p>This webpage presents recent developments by the DFKI Speech and Language Technology group in the context of biomedical text analytics, information extraction and machine learning. We present our current research as well as demo systems, datasets and published models.</p><p>
+	    <h1>Activities</h1>
+		<p>4-5 December 2018 - Presentation of our mEx demo at Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS'2018) in Antwerp</i></p>
+		<p>12 November 2018 - Joint talk with Wiebke D&uuml;ttmann-Rehnolt at <a href="https://www.european-big-data-value-forum.eu/program/healthcare/">European Big Data Value Forum</a> (EBDVF) 2018 in Vienna: <i>"Optimizing the care of kidney transplant patients using Big Data"</i>. Further info: <a href="https://www.bigmedilytics.eu/bigmedilytics-project-presented-in-the-european-big-data-value-forum-in-vienna/">[1]</a></p>
+		<p>7 November 2018 - Talk at <a href="https://science-match.tagesspiegel.de/future-medicine-2018/program">Future Medicine</a> 2018 in Berlin: <i>"Early detection of complications in patients after kidney transplant"</i></p>
+		<p>16 October 2018 - Talk at Smart Data Forum in Berlin: "<i>Medical Data Analytics for Chronic Kidney Disease</i>"</p>
+		<p>15 October 2018 - Our demo <i>mEx - an Information Extraction Platform for German Medical Text</i> is online now: <i><a href="http://biomedical.dfki.de/mEx">http://biomedical.dfki.de/mEx</a></i></p>
+		<p>8 October 2018 - Talk at the Berlin-Brandenburg Academy of Sciences and Humanities as part of <i>Medizindiagnostik und KI</i>: "Informationszugriff und Medizindiagnostik in der Nephrologie"</p>
+		<p>25-26 September 2018 - BigMedilytics Milestone Meeting in Rotterdam</p>
+		<p>20 September 2018 - Presenting our paper <i>"A Domain-adapted Dependency Parser for German Clinical Text"</i> at KONVENS in Vienna</p>
+		<p>08 May 2018 - Talk at MutlilingualBIO in Miyazaki: <i>"Cross-lingual Candidate Search for Biomedical Concept Normalization"</i></p>
+		<p>23 March 2018 - XPOMET panel discussion in Leipzig</p>
+		<p>06-07 March 2018 - BigMedilytics KickOff in Eindhoven</p>
+		<p>29 January 2018 - MACSS Milestone Meeting in Berlin</p>
+
+        </article>
+
+        <article id='projects' hidden>
+            <h1>Projects</h1>
+            <b>BigMedilytics - Big Data for Medical Analytics</b>
+            <p>The EU project BigMedilytics aims to significantly increase healthcare productivity through the adoption of big-data technologies while at the same time reducing costs, improving patient recovery and increasing access to healthcare facilities. The project is divided into 12 pilot studies.</p>
+		
+	<p>Charit&eacute; Universit&auml;tsmedizin Berlin leads the kidney disease pilot and is supported by DFKI, Hasso-Plattner Institute, AOK Nordost and Essen University Hospital. The applied methods include machine learning for the early detection, management and prevention of complications in kidney transplants. The preparatory work from the MACSS project is used as a blueprint for the BigMedilytics project.</p>
+            <br>
+
+            <b>MACSS</b>
+		<p>The project MACSS (Medical Allround-Care Service Solutions) proposes a new patient-centered smart electronic health care service platform with partners from research, industry and health insurance companies, patient organizations as well as health care service providers. The project focuses on improving patient safety after kidney transplants. Moreover, the project aims at improving the drug safety of patients as well as the communication among physicians and between physicians and patients.</p>
+		<p>MACSS develops a mobile application that allows the bidirectional transfer of patient data onto smartphones as part of the patient's clinical routine treatment. To protect such highly sensitive data, a security and authorization concept was created and is already legally approved. MACSS integrates patient data from other medical services and hospital systems by using advanced memory databases for different information services. Innovative technologies aggregate, analyze and recombine medical data in order to provide personalized real-time therapy. In addition, MACSS will help to reduce costs in the healthcare system in the long term.</p>
+		<p>Within the MACSS project, DFKI researchers work on topics such as natural language processing, text analysis and information extraction from clinical reports. This involves processing textual data to detect medical concepts and relations, which are then connected to a large biomedical knowledge source (e.g. UMLS) for the purpose of improving the interaction between patients and healthcare providers.</p>
+		<p>MACSS is supported by the German Federal Ministry of Economics and Energy (BMWi) through the project MACSS (01MD16011F). For more information see <a href="http://macss.dfki.de/">macss.dfki.de</a> and the official <a href="http://www.macss-projekt.de/">MACSS webpage</a>.</p><br>
+
+        </article>
+        <article id='mex' hidden>
+		<!--<table border=0 width=100%><tr><td width=50%><center><a href="#" data-target='mex-demo'>Demo System</a></center></td><td width=50%><center><a href="#" data-target='mex-rest'>REST-API</a></center></td></tr></table><hr/>-->
+		<!--<center><a href="#" data-target='mex-demo'>mEx Demo System</a>&nbsp;--&nbsp;<a href="#" data-target='mex-rest'>REST-API</a><p></center>
+		<hr/>-->
+            <h1>mEx - Medical Information Extraction</h1>
+		mEx is an online tool to process German medical text and can be accessed via web frontend or REST API. The tool includes a range of different natural language processing (NLP) components to process medical text as well as to extract crucial information from it. All components have been developed within the MACSS project, which is supported by the German Ministry for Economic Affairs, and are now combined into a unified system. The models are trained on German medical text of the nephrology domain. However in various experiments we also examined the efficiency on medical text of different domains. <br><p>
+While various tools exist to process English biomedical text, hardly any tool exist out-of-the-box to process non-English biomedical text. There are many reasons for this, unfortunately, this slows down research and development of NLP components to support physicians in their daily life.<br><p>
+Our demo includes the following components: Sentence Splitting, Tokenization, Part-of-Speech Tagging, Dependency Tree Parsing, Named Entity Recognition, Negation/Factuality Detection and Relation Extraction. A brief overview as well as ongoing changes are listed below.<br><p>
+		
+		
+		<h2>mEx Components</h2>
+		<b>Sentence Splitter and Tokenizer</b><br>
+		We currently use spaCy for sentence splitting and tokenization.<p>
+		<b>Part-of-Speech Tagging</b><br>
+		Our POS Tagger bases on a Bi-LSTM+CRF and is trained using a blend of general German text [2] and clinical text.<p>
+		<b>Dependency Tree Parsing</b><br>
+		For dependency tree parsing we use the neural dependency parser of Stanford [1]. We re-trained the German stanford model on our nephrology texts for the purpose of domain adaptation. The training procedure and the model itself are described in [3].
+<p>
+		<b>Named Entity Recognition</b><br>
+		Our NER component detects predefined entities (drug mentions, body parts or diseases etc.) as well as more abstract entities (medical specifications, diagnostic/laboratory procedures, treatments etc.). It utilizes a Bi-LSTM with CRF [5].<p>
+		<b>Negation & Speculation Detection</b><br>
+		The negation detection feature is based on a slightly modified version of NegEx with an extended version of negation trigger words. The current version detects negated and "speculated" medical conditions in text documents. Some more detailed information can be found <a href="http://macss.dfki.de/german_trigger_set.html">here</a> and in [4].<p>
+		<b>Relation Extraction</b><br>
+		The mEx RE component is based on a convolutional neural network (CNN), as described in  [5]. Both the NER and RE components were trained on a large data set of nephrological clinical notes and discharge summaries.<p>
+
+
+		<h2>References</h2>
+		<!--[1] Roland Roller, Christoph Alt, Laura Seiffe and He Wang. 2018. <b>mEx - An Information Extraction Platform for German Medical Text</b>. In Proceedings of the 11th International Conference on Semantic Web Applications and Tools for Healthcare and Life Sciences (SWAT4HCLS'2018). Antwerp, Belgium<br><br>-->
+		<!--[1] Johannes Hellrich, Franz Matthies, Erik Faessler and Udo Hahn. 2015. <b>Sharing models and tools for processing German clinical texts</b>. Studies in Health Technology and Informatics, 210:734-738.<br><br>-->
+		[1] Danqi Chen and Christopher Manning. 2014. <b>A Fast and Accurate Dependency Parser using Neural Networks</b>. In Proceedings of EMNLP 2014, Association for Computational Linguistics, 740-750.<br><br>		
+		[2] Kilian Foth, Arne Köhn, Niels Beuck and Wolfgang Menzel. 2014. <b>Because Size Does Matter: The Hamburg Dependency Treebank</b>. Proceedings of the Language Resources and Evaluation Conference 2014 / European Language Resources Association (ELRA). Reykjavik, Iceland.<br><br>
+
+		[3] Elif Kara, Tatjana Zeen, Aleksandra Gabryszak, Klemens Budde, Danilo Schmidt and Roland Roller. 2018. <b>A Domain-adapted Dependency Parser for German Clinical Text</b>. In Proceedings of KONVENS 2018, "The Conference on Natural Language Processing". Vienna, Austria.<br><br>
+		[4] Viviana Cotik, Roland Roller, Feiyu Xu, Hans Uszkoreit, Klemens Budde and Danilo Schmidt. 2016. <b>Negation Detection in Clinical Reports Written in German</b>. In Proceedings of the 5th Workshop on Building and Evaluating Resources for Biomedical Text Mining (BioTxtM). Osaka, Japan<br><br>
+		[5] Roller, Roland, Nils Rethmeier, Philippe Thomas, Marc Hübner, Hans Uszkoreit, Oliver Staeck, Klemens Budde, Fabian Halleck, and Danilo Schmidt. 2017. <b>Detecting Named Entities and Relations in German Clinical Reports</b>. Proceedings of the International Conference of the
+German Society for Computational Linguistics and Language Technology. Berlin, Germany<br><br>
+
+
+
+<p>
+        </article>
+        <article id='mex-demo' hidden>
+		Our mEx demo system can be accessed <a href="http://biomedical.dfki.de/mEx">here</a>.
+            <h1>Demo Description</h1>
+mEx combines several NLP components into a pipeline with the aim of extracting information from German medical text.<p>
+The system exclusively works for German text, however, the menu and the descriptions can be switched to English in the top left corner of the page if needed.<p>
+<img src="/static/images/T1.png" width="100%"><p>
+Start a tutorial by clicking the button on the top right corner. The house symbol directs you back to the main page.<p>
+<img src="/static/images/T2.png" width="100%"><p>
+The input text can be chosen from the set of predefined synthetic clinical notes on the left-hand side of the tool window.<p>
+<img src="/static/images/T3.png" width="100%"><p>
+The text is then visualized within the text field by simply clicking on one of the 12 text files. You can easily modify the text by typing into the “input text” window.<p>
+<img src="/static/images/T4.png" width="100%"><p>
+Alternatively, manually type a text into the “input text” window. The window size can be adjusted by dragging it on the right bottom corner.<p>
+The control panel on the right-hand side of the tool window comprises functionalities concerning Named Entity Recognition (NER), Negation Detection, Normalization and Relation Extraction (RE). All functionalities can be collapsed and expanded by clicking the arrows on the top right.<p>
+
+<img src="/static/images/T5.png" width="100%"><p>
+The NER component detects different kinds of medical information. By default, all categories are preselected. Currently only a long short-term memory (lstm) system can be used. The Negation Detection component allows to turn the respective functionality on or off. The Concept Normalization function aligns the detected entities to concepts of the Unified Medical Language System (UMLS). Word Sense Disambiguation (WSD) resolves ambiguous entities. The RE function detects specific relations between previously detected named entities using a convolutional neural network (CNN).<p>
+
+The blue “Semantics” button below the text window triggers the information extraction pipeline. When the data is successfully retrieved, it is visualized in the “processed text” window. Recognized entities and relations are highlighted. Negations are accentuated by a red frame. The demo visualizes additional information within a popup of each label.<p>
+
+<img src="/static/images/T6.png" width="100%"><p>
+The green “Syntax” button triggers a syntactic analysis of the input text. The text is visualized with its parts-of-speech (POS) and syntactic relations.<br>
+<img src="/static/images/T7.png" width="100%"><br>
+
+
+
+        </article>
+        <article id='mex-rest' hidden>
+            <h1>REST API instructions</h1>
+
+
+The access to our services via REST is rather simple. For both services, the semantic and the syntactic processing, a different URL exist. Please use <b><i>http://www.dfki.de/mEx/syntax</i></b> for the syntactic and <b><i>http://www.dfki.de/mEx/semantic</i></b> for the semantic processing.<p>
+
+In order to process some text you need to wrap it into a json structure, please see the example below:<p>
+
+<div class="boxed">
+{'text': 'Heute kein Fieber, kein Infekt, keine Beschwerden bei Miktion.'}
+</div>
+<p>
+If you send this request you get the full functionality of the respective service. In case of the semantic service you have the possibility to configure the output results by for instance detecting only the concepts you are interested in or switching of the normalization component. However, you can also filter those results easily by yourself. The output of our two backend services provide results in a similar way as the annotation files (ann) of the brat annotator. <p>
+
+The following table provides an overview about all parameters and values you can insert into the json structure:<p>
+
+<table border=1 bgcolor=#E6E6E6>
+<tr><td><b>key</b></td><td><b>value</b></td><td><b>description</b></td></tr>
+<tr><td>text</td><td>string</td><td>Contains text to process. This is the only mandatory parameter/key.</td></tr>
+<tr><td>ner</td><td>dictionary</td><td><i>ner</i> defines the classifier (key) and the concepts to detect (within the connected array). Currently only <i>lstm</i> is supported as key.</td></tr>
+<tr><td>re</td><td>dictionary</td><td><i>re</i> defines the classifier (key) and the relations to detect (within the connected array). Currently only <i>cnn</i> is supported as key.</td></tr>
+<tr><td>neg</td><td>dictionary</td><td><i>neg</i> defines the negation detector (key) and the corresponding concepts. Right now, we use only a modified version of NegEx and apply it only to medical conditions.</td></td></tr>
+<tr><td>norm</td><td>dictionary</td><td><i>norm</i> defines the normalization component. Currently we use just one conponent for which a candidate search and a word sense disambiguation can be included.</td></tr>
+</table><p>
+
+This is an example of a full request for semantic processing:<p>
+<div class="boxed">
+{<br>
+&nbsp;&nbsp;&nbsp;"text":"Heute kein Fieber, kein Infekt, keine Beschwerden bei Miktion.",<br>
+&nbsp;&nbsp;&nbsp;"ner":{"lstm":[<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"biological_chemistry",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"biological_parameter",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"body_fluid",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"body_part",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"date",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"degree",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"diaglab_procedure",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"dosing",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"local_specification",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"measurement",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"medical_condition",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"medical_device",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"medical_specification",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"medication",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"person",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"process",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"pysical_process",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"state_of_health",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"structure_element",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"temporal_course",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"time_information",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"tissue",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"treatment",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"type"<br>
+&nbsp;&nbsp;&nbsp;]},<br>
+&nbsp;&nbsp;&nbsp;"re":{"cnn":[<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"has_time_info",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"has_dosing",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"has_measure",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"shows",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"examines",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"treats",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"causes",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"involves",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"is_located",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"is_specified",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"hasState",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"severity",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"affects",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"if_consequence",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"consequence"<br>
+&nbsp;&nbsp;&nbsp;]},<br>
+&nbsp;&nbsp;&nbsp;"neg":{"negex":["Medical_condition"]},<br>
+&nbsp;&nbsp;&nbsp;"norm":{"norm":["candidate","wsd"]}<br>
+}<br>
+</div><p>
+
+The example above shows the full functionality, which is actually the same as sending only the text (default). Removing some of the entries will modify the functionality. At this point only the LSTM for NER and CNN for RE work. At a later stage we would like to include further models. In addition to that negation detection works only for medical conditions. <p>
+
+This <a href="/static/script/rest_example.py" download="rest_example.py">script</a> shows a very simple example how to use our two services. In order to make it work you need to install flask.<p>
+Note, information about UMLS candidates (concept normalization) are included via attributes and the comment field. Those information are then integrated into the frontend via popup.
+
+        </article>
+        <article id='resources' hidden>
+            <h1>Data</h1>
+
+		<p><b>Fictitious clinical notes</b><br>
+		This small dataset is a collection of fictitious clinical notes from the nephrology domain written by students (medical & lingustic). The documents imitate the style and content of genuine clinical notes pertaining to nephrology, and thus, are suitable for testing NLP applications as real patient data is difficult to share. Note that our fictitious clinical notes are not necessarily correct from a medical perspective. <a href="http://macss.dfki.de/data/fiktive_Verlaufsnotizen.tar.gz">Download</a></p>
+		<p><b>German NegEx trigger set</b><br>
+		This set of trigger words was created for negation detection in German clinical notes and discharge summaries. More information can be found <a href="http://macss.dfki.de/german_trigger_set.html">here</a>. <a href="http://macss.dfki.de/negex/negex_trigger_german_biotxtm_2016.txt">Download</a></p>
+
+	    <h1>Tools & Models</h1>
+		<p><b>SIA: a scalable interoperable annotation server for biomedical named entities</b><br>
+		Recent years showed a strong increase in biomedical sciences and an inherent increase in publication volume. Extraction of specific information from these sources requires highly sophisticated text mining and information extraction tools. However, the integration of freely available tools into customized workflows is often cumbersome and difficult. SIA is a scalable, extensible, and robust annotation service, enabling the integration of different text mining tools. The system currently covers six named entity types (i.e., chemicals, diseases, genes, miRNA, mutations, and organisms) and is freely available <a href="https://github.com/Erechtheus/sia">here</a>, under Apache 2.0 license.
+		<p><b>Dependency tree parser for German medical text</b><br>
+		Using the Stanford parser, we created a domain-adapted dependency tree parser specialized for German medical text. The model was pretrained on a large general dataset in German and then retrained on a small set of clinical documents of the nephrology domain. The model and a more detailed description can be found <a href="http://macss.dfki.de/dependency_parser.html">here</a>.</p>
+		<p><b>Biomedical-CharTranslator</b><br>
+		Many NLP tasks perform concept normalization (alignment), which links a given mention to a corresponding concept within an ontology. Applying this task to a language other than English might be challenging, as non-English data is often underrepresented. Furthermore, terminology of Greek and Latin origin is employed frequently in the biomedical domain. Taking this, plus the grammatical features of a given language, into account, a large range of biomedical terms can easily be translated from one language into another. Our biomedical CharTranslator is based on this idea and uses a simple neural translator on character level. In this way, concept normalization can be improved by translating "unknown" words and extending the search by including English data. The tool and the models can be found <a href="http://macss.dfki.de/char_translator.html">here</a>.</p>
+        </article>
+
+        <article id='graphkd' hidden>
+            <h1>Graph-KD</h1>
+		<b>Exploring Relational Information of UMLS for Knowledge Discovery</b><p>
+		<p>Graph-KD is a tool to navigate through large relational knowledge sources. It provides methods to understand relationships between concepts using shortest path, node exploration and knowledge inference. The purpose of the tool is the support of biomedical knowledge discovery and exploration, for example for literature-based discovery. It is primarily intended to be used by computer scientists, but can also be used by medical researchers. Graph-KD can be accessed via a web-interface and REST-API. Source code will be made freely available. The system is able to process even large graphs very efficiently. This work presents a use case involving millions of relations from the Unified Medical Language System. However, Graph-KD can be used to explore any graph after local installation. Please visit our <a href="http://biomedical.dfki.de/graph-kd">Demo</a>.<br>
+
+        </article>
+
+
+        <article id='legal' hidden>
+            <h1>Legal Information</h1>
+		Deutsches Forschungszentrum f&uuml;r K&uuml;nstliche Intelligenz GmbH, DFKI<p>
+
+		Postal Address<br>
+		Postfach 20 80<br>
+		D-67608 Kaiserslautern<p>
+
+		Email: info@dfki.de<p>
+
+		Direct contact: Roland Roller (roland.roller@dfki.de)<p>
+
+		<b>Kaiserslautern Site</b><br>
+		Trippstadter Strasse 122<br>
+		D-67663 Kaiserslautern<br>
+		Phone: +49 (0)631 / 205 75-0<br>
+		Telefax: +49 (0)631 / 205 75-5030<p>
+
+		<b>Saarbruecken Site</b><br>
+		Stuhlsatzenhausweg 3 (Building D3 2)<br>
+		D-66123 Saarbruecken<br>
+		Phone: +49 (0)681 / 857 75-0<br>
+		Telefax: +49 (0)681 / 857 75-5341<p>
+
+		<b>Bremen Site</b><br>
+		Robert-Hooke-Strasse 1<br>
+		D-28359 Bremen<br>
+		Phone: +49 (0)421 / 178 45-0<br>
+		Telefax: +49 (0)421 / 178 45-4150<p>
+
+		<b>DFKI Project Office Berlin </b><br>
+		Alt-Moabit 91c<br>
+		D-10559 Berlin<br>
+		Phone: +49 (0)30 / 238 95-0<p>
+		 
+
+		Management Board<br>
+		Prof. Dr. Dr. h.c. mult. Wolfgang Wahlster (CEO)<br>
+		Dr. Walter Olthoff (CFO)<p>
+
+		Head of Supervisory Board<br>
+		Prof. Dr. h.c. Hans A. Aukes<p>
+
+		Register Court: Amtsgericht Kaiserslautern<br>
+		Register Number: HRB 2313<p>
+
+		ID-Number: DE 148 646 973<br>
+
+        </article>
+        <article id='data-protection' hidden>
+            <h1>Data Protection</h1>
+        </article>
+
+    </div>
+     <footer></footer>
+
+</div>
