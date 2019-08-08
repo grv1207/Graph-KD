@@ -86,6 +86,15 @@ This file contains data for node in 3 columns comma separated, without header.
 This file contains data for relation in 4 columns comma separated, without header.
 
 
+#### 2.1.1) Command to node.txt and relation.txt
+* get MRREL.RRF and MRCONSO.RRF from UMLS installed directory
+* for creating relation.txt and node.txt we need UMLS_final file is obtained by running below script
+* First run the Create_Graph_DB/DBcreation.py 0 <path of UMLS_relation> <path of MRREL> <path of MRCONSO>
+* After merging the records from UMLS_Analyse into UMLS_relation (if equal number of records are present in UMLS_Analyse) 
+* Run Create_Graph_DB/DBcreation.py 1 <path of UMLS_relation> <path of MRREL> <path of MRCONSO>
+* We get node.txt and relation.txt 
+
+
 ### 2.2) Command to create a Neo4j DB
 
 `neo4j-import --into graph.db --nodes:<Node label> "nheader.txt,node.txt" --relationships "rheader.txt,relation.txt"  --skip-duplicate-node true`
