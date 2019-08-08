@@ -153,14 +153,14 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='This script creates a node and relation file, used for creating DB')
     parser.add_argument('Run',type=int,nargs='+',
-                        help='Indicate whether it is first run(0) or running after analysing (1) , default is 0', default=0)
+                        help='Indicate whether it is first run(0) or running after analysing (1) , default is 0. 0 is the initial processing step and 1 is after we merge the duplicate records into UMLS_final', default=0)
     parser.add_argument('UMLS_relation', metavar='UMLS_relation', type= str, nargs='+',
-                        help='path of the UMLS_relation file, if not current directory')
+                        help='path of the UMLS_relation file, if not current directory. This file contains relation type that we want in the graph.db file')
     parser.add_argument('MRREL', metavar='MRREL', type=str, nargs='+',
-                        help='path of the MRREL.RRF file, if not current directory')
+                        help='path of the MRREL.RRF file, if not current directory. Main file for creating relation.txt')
 
     parser.add_argument('MRCONSO', metavar='MRCONSO', type=str, nargs='+',
-                        help='path of the MRCONSO.RRf file, if not current directory')
+                        help='path of the MRCONSO.RRf file, if not current directory. Main file for creating node.txt')
 
 
 
