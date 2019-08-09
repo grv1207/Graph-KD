@@ -13,7 +13,7 @@ Graph-KD is a general graph exploring tool, which has following functionalities:
 
 The knowledge-graph that is used to build this tool is the **UMLS (Unified Medical Language System) dataset** which is freely available at [UMLS website](https://uts.nlm.nih.gov/home.html)
 
-In order to use Graph-Kb you should have:
+In order to use Graph-KD you should have:
 * Neo4j 
 * JVM
 * Python 3.x
@@ -86,7 +86,7 @@ This file contains data for node in 3 columns comma separated, without header.
 This file contains data for relation in 4 columns comma separated, without header.
 
 
-#### 2.1.1) Command to node.txt and relation.txt
+#### 2.1.1) Command to create node.txt and relation.txt
 * get MRREL.RRF and MRCONSO.RRF from UMLS installed directory
 * for creating relation.txt and node.txt we need UMLS_final file is obtained by running below script using **python3.5**
 * First run the `Create_Graph_DB/DBcreation.py 0 <path of UMLS_relation> <path of MRREL> <path of MRCONSO>`
@@ -107,7 +107,7 @@ This file contains data for relation in 4 columns comma separated, without heade
 * `--skip-duplicate-node` 
 	- `true` Skip duplicate nodes
 
-After running this command a **graph.db** folder will be generated in the present directory, you need to move this file into the following folder **/var/lib/neo4j/data/databases/**
+After running this command a **graph.db** folder will be generated in the present directory, you need to move this folder into the following folder **/var/lib/neo4j/data/databases/**
 
 ## III) [ Additional information ]:
 -----------------------------------
