@@ -139,8 +139,12 @@ To change the path of the folder:
 * ` CREATE INDEX ON :<Node label>(<Node property>) ` 
 * ` CREATE INDEX ON :UMLSConcepts(ConceptID) `
 
+### 3.5) Inference.
+Before running the inference script, make sure you have flask and request module installed.
+* python Inference/Inference.py
 
-### 3.4) User-Interface:
+
+### 3.5) User-Interface:
 * cd to UI/biomedical-dfki-0.1/bin
 * Run `./biomedical-dfki`
 * Open the browser and type http://localhost:9000/graph-kd
