@@ -144,7 +144,7 @@ Before running the inference script, make sure you have flask and request module
 * python Inference/Inference.py
 
 
-### 3.5) User-Interface:
+### 3.6) User-Interface:
 * cd to UI/biomedical-dfki-0.1/bin
 * Run `./biomedical-dfki`
 * Open the browser and type http://localhost:9000/graph-kd
