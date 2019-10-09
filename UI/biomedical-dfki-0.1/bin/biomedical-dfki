@@ -97,7 +97,7 @@ fix_classpath() {
   cp="$1"
   if is_cygwin; then
     echo "$(fixCygwinClasspath "$cp")"
-  else 
+  else
     echo "$cp"
   fi
 }
@@ -192,11 +192,11 @@ process_args () {
 
           -main) custom_mainclass="$2" && shift 2 ;;
 
-     -java-home) require_arg path "$1" "$2" && java_cmd="$2/bin/java" && shift 2 ;;
+     -java-home) require_arg path "$1" "$2" && jre=`eval echo $2` && java_cmd="$jre/bin/java" && shift 2 ;;
 
- -D*|-agentlib*) addJava "$1" && shift ;;
-            -J*) addJava "${1:2}" && shift ;;
-              *) addResidual "$1" && shift ;;
+ -D*|-agentlib*|-XX*) addJava "$1" && shift ;;
+                 -J*) addJava "${1:2}" && shift ;;
+                   *) addResidual "$1" && shift ;;
     esac
   done
 
@@ -228,16 +228,16 @@ run() {
     addJava "-Djline.terminal=jline.UnixTerminal"
     addJava "-Dsbt.cygwin=true"
   fi
-  
+
   # check java version
   if [[ ! $no_version_check ]]; then
     java_version_check
   fi
-  
+
   if [ -n "$custom_mainclass" ]; then
-    mainclass="$custom_mainclass"
+    mainclass=("$custom_mainclass")
   else
-    mainclass="$app_mainclass"
+    mainclass=("${app_mainclass[@]}")
   fi
 
   # Now we check to see if there are any java opts on the environment. These get listed first, with the script able to override them.
@@ -250,10 +250,10 @@ run() {
     ${java_opts[@]} \
     "${java_args[@]}" \
     -cp "$(fix_classpath "$app_classpath")" \
-    $mainclass \
+    "${mainclass[@]}" \
     "${app_commands[@]}" \
     "${residual_args[@]}"
-    
+
   local exit_code=$?
   if is_cygwin; then
     stty icanon echo > /dev/null 2>&1
@@ -263,12 +263,12 @@ run() {
 
 # Loads a configuration file full of default command line options for this script.
 loadConfigFile() {
-  cat "$1" | sed '/^\#/d'
+  cat "$1" | sed $'/^\#/d;s/\r$//'
 }
 
 # Now check to see if it's a good enough version
 # TODO - Check to see if we have a configured default java version, otherwise use 1.6
-java_version_check() { 
+java_version_check() {
   readonly java_version=$("$java_cmd" -version 2>&1 | awk -F '"' '/version/ {print $2}')
   if [[ "$java_version" == "" ]]; then
     echo
@@ -276,16 +276,22 @@ java_version_check() {
     echo Please go to http://www.java.com/getjava/ and download
     echo
     exit 1
-  elif [[ ! "$java_version" > "1.6" ]]; then
-    echo
-    echo The java installation you have is not up to date
-    echo $app_name requires at least version 1.6+, you have
-    echo version $java_version
-    echo
-    echo Please go to http://www.java.com/getjava/ and download
-    echo a valid Java Runtime and install before running $app_name.
-    echo
-    exit 1
+  else
+    local major=$(echo "$java_version" | cut -d'.' -f1)
+    if [[ "$major" -eq "1" ]]; then
+     local major=$(echo "$java_version" | cut -d'.' -f2)
+    fi
+    if [[ "$major" -lt "6" ]]; then
+      echo
+      echo The java installation you have is not up to date
+      echo $app_name requires at least version 1.6+, you have
+      echo version $java_version
+      echo
+      echo Please go to http://www.java.com/getjava/ and download
+      echo a valid Java Runtime and install before running $app_name.
+      echo
+      exit 1
+    fi
   fi
 }
 
@@ -319,6 +325,8 @@ Usage: $script_name [options]
 
 In the case of duplicated or conflicting options, basically the order above
 shows precedence: JAVA_OPTS lowest, command line options highest except "--".
+Available main classes:
+	play.core.server.ProdServerStart
 EOM
 }
 
@@ -333,12 +341,12 @@ declare -r real_script_path="$(realpath "$0")"
 declare -r app_home="$(realpath "$(dirname "$real_script_path")")"
 # TODO - Check whether this is ok in cygwin...
 declare -r lib_dir="$(realpath "${app_home}/../lib")"
-declare -r app_mainclass="play.core.server.ProdServerStart"
+declare -a app_mainclass=(play.core.server.ProdServerStart)
 
 declare -r script_conf_file="${app_home}/../conf/application.ini"
-declare -r app_classpath="$lib_dir/../conf/:$lib_dir/biomedical-dfki.biomedical-dfki-0.1-sans-externalized.jar:$lib_dir/rabbitmq-client.jar:$lib_dir/org.scala-lang.scala-library-2.11.6.jar:$lib_dir/com.typesafe.play.twirl-api_2.11-1.1.1.jar:$lib_dir/org.apache.commons.commons-lang3-3.4.jar:$lib_dir/org.scala-lang.modules.scala-xml_2.11-1.0.1.jar:$lib_dir/com.typesafe.play.play-server_2.11-2.4.3.jar:$lib_dir/com.typesafe.play.play_2.11-2.4.3.jar:$lib_dir/com.typesafe.play.build-link-2.4.3.jar:$lib_dir/com.typesafe.play.play-exceptions-2.4.3.jar:$lib_dir/org.javassist.javassist-3.19.0-GA.jar:$lib_dir/com.typesafe.play.play-iteratees_2.11-2.4.3.jar:$lib_dir/org.scala-stm.scala-stm_2.11-0.7.jar:$lib_dir/com.typesafe.config-1.3.0.jar:$lib_dir/com.typesafe.play.play-json_2.11-2.4.3.jar:$lib_dir/com.typesafe.play.play-functional_2.11-2.4.3.jar:$lib_dir/com.typesafe.play.play-datacommons_2.11-2.4.3.jar:$lib_dir/joda-time.joda-time-2.8.1.jar:$lib_dir/org.joda.joda-convert-1.7.jar:$lib_dir/org.scala-lang.scala-reflect-2.11.6.jar:$lib_dir/com.fasterxml.jackson.core.jackson-core-2.5.4.jar:$lib_dir/com.fasterxml.jackson.core.jackson-annotations-2.5.4.jar:$lib_dir/com.fasterxml.jackson.core.jackson-databind-2.5.4.jar:$lib_dir/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar:$lib_dir/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar:$lib_dir/com.typesafe.play.play-netty-utils-2.4.3.jar:$lib_dir/org.slf4j.slf4j-api-1.7.12.jar:$lib_dir/org.slf4j.jul-to-slf4j-1.7.12.jar:$lib_dir/org.slf4j.jcl-over-slf4j-1.7.12.jar:$lib_dir/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.1.jar:$lib_dir/ch.qos.logback.logback-core-1.1.3.jar:$lib_dir/ch.qos.logback.logback-classic-1.1.3.jar:$lib_dir/com.typesafe.akka.akka-actor_2.11-2.3.13.jar:$lib_dir/com.typesafe.akka.akka-slf4j_2.11-2.3.13.jar:$lib_dir/commons-codec.commons-codec-1.10.jar:$lib_dir/xerces.xercesImpl-2.11.0.jar:$lib_dir/xml-apis.xml-apis-1.4.01.jar:$lib_dir/javax.transaction.jta-1.1.jar:$lib_dir/com.google.inject.guice-4.0.jar:$lib_dir/javax.inject.javax.inject-1.jar:$lib_dir/aopalliance.aopalliance-1.0.jar:$lib_dir/com.google.inject.extensions.guice-assistedinject-4.0.jar:$lib_dir/com.typesafe.play.play-netty-server_2.11-2.4.3.jar:$lib_dir/io.netty.netty-3.10.4.Final.jar:$lib_dir/com.typesafe.netty.netty-http-pipelining-1.1.4.jar:$lib_dir/com.typesafe.play.play-jdbc_2.11-2.4.3.jar:$lib_dir/com.typesafe.play.play-jdbc-api_2.11-2.4.3.jar:$lib_dir/com.jolbox.bonecp-0.8.0.RELEASE.jar:$lib_dir/com.zaxxer.HikariCP-2.3.7.jar:$lib_dir/com.h2database.h2-1.4.187.jar:$lib_dir/tyrex.tyrex-1.0.1.jar:$lib_dir/com.typesafe.play.play-cache_2.11-2.4.3.jar:$lib_dir/net.sf.ehcache.ehcache-core-2.6.11.jar:$lib_dir/com.typesafe.play.play-ws_2.11-2.4.3.jar:$lib_dir/com.google.guava.guava-18.0.jar:$lib_dir/com.ning.async-http-client-1.9.21.jar:$lib_dir/oauth.signpost.signpost-core-1.2.1.2.jar:$lib_dir/oauth.signpost.signpost-commonshttp4-1.2.1.2.jar:$lib_dir/org.apache.httpcomponents.httpcore-4.0.1.jar:$lib_dir/org.apache.httpcomponents.httpclient-4.0.1.jar:$lib_dir/commons-logging.commons-logging-1.1.1.jar:$lib_dir/biomedical-dfki.biomedical-dfki-0.1-assets.jar"
+declare -r app_classpath="$lib_dir/../conf/:$lib_dir/biomedical-dfki.biomedical-dfki-0.1-sans-externalized.jar:$lib_dir/rabbitmq-client.jar:$lib_dir/org.scala-lang.scala-library-2.13.0.jar:$lib_dir/com.typesafe.play.twirl-api_2.13-1.4.2.jar:$lib_dir/org.scala-lang.modules.scala-xml_2.13-1.2.0.jar:$lib_dir/com.typesafe.play.play-server_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.play_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.build-link-2.7.3.jar:$lib_dir/com.typesafe.play.play-exceptions-2.7.3.jar:$lib_dir/com.typesafe.play.play-streams_2.13-2.7.3.jar:$lib_dir/org.reactivestreams.reactive-streams-1.0.2.jar:$lib_dir/com.typesafe.akka.akka-stream_2.13-2.5.23.jar:$lib_dir/com.typesafe.akka.akka-actor_2.13-2.5.23.jar:$lib_dir/com.typesafe.config-1.3.3.jar:$lib_dir/org.scala-lang.modules.scala-java8-compat_2.13-0.9.0.jar:$lib_dir/com.typesafe.akka.akka-protobuf_2.13-2.5.23.jar:$lib_dir/com.typesafe.ssl-config-core_2.13-0.4.0.jar:$lib_dir/org.scala-lang.modules.scala-parser-combinators_2.13-1.1.2.jar:$lib_dir/org.slf4j.slf4j-api-1.7.26.jar:$lib_dir/org.slf4j.jul-to-slf4j-1.7.26.jar:$lib_dir/org.slf4j.jcl-over-slf4j-1.7.26.jar:$lib_dir/com.typesafe.akka.akka-slf4j_2.13-2.5.23.jar:$lib_dir/com.fasterxml.jackson.core.jackson-core-2.9.8.jar:$lib_dir/com.fasterxml.jackson.core.jackson-annotations-2.9.8.jar:$lib_dir/com.fasterxml.jackson.core.jackson-databind-2.9.8.jar:$lib_dir/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.9.8.jar:$lib_dir/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.9.8.jar:$lib_dir/com.typesafe.play.play-json_2.13-2.7.4.jar:$lib_dir/com.typesafe.play.play-functional_2.13-2.7.4.jar:$lib_dir/org.scala-lang.scala-reflect-2.13.0.jar:$lib_dir/joda-time.joda-time-2.10.1.jar:$lib_dir/com.google.guava.guava-27.1-jre.jar:$lib_dir/com.google.guava.failureaccess-1.0.1.jar:$lib_dir/com.google.guava.listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:$lib_dir/com.google.code.findbugs.jsr305-3.0.2.jar:$lib_dir/org.checkerframework.checker-qual-2.5.2.jar:$lib_dir/com.google.errorprone.error_prone_annotations-2.2.0.jar:$lib_dir/com.google.j2objc.j2objc-annotations-1.1.jar:$lib_dir/org.codehaus.mojo.animal-sniffer-annotations-1.17.jar:$lib_dir/io.jsonwebtoken.jjwt-0.9.1.jar:$lib_dir/javax.xml.bind.jaxb-api-2.3.1.jar:$lib_dir/javax.activation.javax.activation-api-1.2.0.jar:$lib_dir/javax.transaction.jta-1.1.jar:$lib_dir/javax.inject.javax.inject-1.jar:$lib_dir/com.typesafe.play.play-logback_2.13-2.7.3.jar:$lib_dir/ch.qos.logback.logback-classic-1.2.3.jar:$lib_dir/ch.qos.logback.logback-core-1.2.3.jar:$lib_dir/com.typesafe.play.play-akka-http-server_2.13-2.7.3.jar:$lib_dir/com.typesafe.akka.akka-http-core_2.13-10.1.8.jar:$lib_dir/com.typesafe.akka.akka-parsing_2.13-10.1.8.jar:$lib_dir/com.typesafe.play.filters-helpers_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.play-jdbc_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.play-jdbc-api_2.13-2.7.3.jar:$lib_dir/com.zaxxer.HikariCP-3.3.1.jar:$lib_dir/com.googlecode.usc.jdbcdslog-1.0.6.2.jar:$lib_dir/tyrex.tyrex-1.0.1.jar:$lib_dir/com.typesafe.play.play-ehcache_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.play-cache_2.13-2.7.3.jar:$lib_dir/net.sf.ehcache.ehcache-2.10.6.jar:$lib_dir/org.ehcache.jcache-1.0.1.jar:$lib_dir/javax.cache.cache-api-1.0.0.jar:$lib_dir/com.typesafe.play.play-ahc-ws_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.play-ws_2.13-2.7.3.jar:$lib_dir/com.typesafe.play.play-ws-standalone_2.13-2.0.6.jar:$lib_dir/com.typesafe.play.play-ws-standalone-xml_2.13-2.0.6.jar:$lib_dir/com.typesafe.play.play-ws-standalone-json_2.13-2.0.6.jar:$lib_dir/com.typesafe.play.play-ahc-ws-standalone_2.13-2.0.6.jar:$lib_dir/com.typesafe.play.cachecontrol_2.13-1.1.7.jar:$lib_dir/org.joda.joda-convert-1.9.2.jar:$lib_dir/com.typesafe.play.shaded-asynchttpclient-2.0.6.jar:$lib_dir/com.typesafe.play.shaded-oauth-2.0.6.jar:$lib_dir/com.typesafe.play.play-guice_2.13-2.7.3.jar:$lib_dir/com.google.inject.guice-4.2.2.jar:$lib_dir/aopalliance.aopalliance-1.0.jar:$lib_dir/com.google.inject.extensions.guice-assistedinject-4.2.2.jar:$lib_dir/biomedical-dfki.biomedical-dfki-0.1-assets.jar"
 
-addJava "-Duser.dir=$(cd "${app_home}/.."; pwd -P)"
+addJava "-Duser.dir=$(realpath "$(cd "${app_home}/.."; pwd -P)"  $(is_cygwin && echo "fix"))"
 
 # java_cmd is overrode in process_args when -java-home is used
 declare java_cmd=$(get_java_cmd)

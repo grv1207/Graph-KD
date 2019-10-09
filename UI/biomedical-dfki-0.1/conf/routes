@@ -25,7 +25,7 @@ POST    /textToAnnotate                                             @controllers
 POST    /textToAnnotateSyntax                                       @controllers.Service.getSyntaxAnnotation
 GET     /getArticleList/:mode                                       @controllers.Service.getArticleList(mode)
 POST    /getShortestPath                                            @controllers.Service.getShortestPath
-POST    /nodeExploration                                            @controllers.Service.nodeExploration
+POST    /nodeExploration/:labelType                                 @controllers.Service.nodeExploration(labelType:Int)
 POST    /getInferredEdges                                           @controllers.Service.getInferredEdges
 GET     /getCUI/:input                                              @controllers.Service.getCUI(input)
 GET     /getConceptName/:input                                      @controllers.Service.getConceptName(input)
@@ -34,7 +34,8 @@ GET     /getConceptType/:input                                      @controllers
 GET     /getRelationType/:input                                     @controllers.Service.getRelationType(input)
 POST    /similarPatients                                            @controllers.Service.getSimilarPatients
 POST    /authenticate                                               @controllers.Authentication.authenticate
-GET     /getVideoTutorial                                              @controllers.Service.getVideoTutorial
+GET     /getVideoTutorial                                           @controllers.Service.getVideoTutorial
+GET     /semanticTypeAutocomplete/:input                            @controllers.Service.semanticTypeAutocomplete(input)
 
 
 # API's for the Patient Record Analysis page
